@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 3</title>
+    <title>HomeCraft</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/831d3b3f65.js" crossorigin="anonymous"></script>
@@ -22,15 +22,15 @@
 </head>
 <body>
     <!-- Header section -->
-    <header class="bg-gradient-to-r from-stone-100 to-stone-200 pb-20" >
+    <header class="bg-gradient-to-r from-stone-100 to-stone-200 pt-5 pb-5" >
         <section class="px-7 mb-11 lg:px-52">
           <!-- navber -->
-            <nav class=" lg:block">
-                <div class=" overflow-hidden lg:flex justify-between">
+            <nav class="lg:block">
+                <div class="items-center overflow-hidden lg:flex justify-between">
                    <div class="flex justify-between items-center lg:block" >
                     <div class="">
-                      <h1>
-                      <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full -rotate-45 p-1"></i>
+                      <h1 class="text-[22px]">
+                      <i class="fa-solid  fa-arrow-right bg-[#ABEF5F] rounded-full -rotate-45 p-1"></i>
                       Rinterio</h1>
                     </div>
                          
@@ -55,13 +55,6 @@
                       </div>
 
                    </div>
-    
-                
-                    
-                  
-                       
-                          
-                       
 
                     <div class="hidden lg:block" >
                       <ul class="flex gap-10">
@@ -113,10 +106,10 @@
 
             <!-- text of cards -->
 
-            <div class="text-center lg:flex justify-around  mb-24">
+            <div class="text-center lg:flex justify-around pt-10  mb-24">
               <div class="size">
                 <div>
-                  <button class="bg-[#FFFF] w-32 h-8 rounded-3xl text-[#1C1C1C]
+                  <button class="bg-[#FFFF]  w-32 h-8 rounded-3xl text-[#1C1C1C]
                             font-extrabold p-1"><i class="fa-solid fa-arrow-right rounded-full  p-1"></i>About Us  </button>
     <br><br>
                         <h1 class="text-[#212121] text-4xl font-bold ">We design thoughtful, <br> liveable spaces</h1>
@@ -126,9 +119,9 @@
     <br> <br>
     
                 <!-- card-1 -->
-                <div class="flex gap-4 items-center bg-white rounded-xl px-7 py-5 h-32">
+                <div class="flex gap-4 items-center bg-white rounded-xl px-7  h-52">
                     <div>
-                        <img src="assets/commercial.png" alt="">
+                        <img class="" src="assets/commercial.png" alt="">
                     </div>
                     <div>
                         <h1 class="text-xl font-extrabold text-[#494949]">Commercial</h1>
@@ -137,7 +130,7 @@
                 </div>
     <br> <br>
                 <!-- card-2 -->
-                <div class="flex gap-4 items-center bg-white rounded-xl px-7 py-5 h-32">
+                <div class="flex gap-4 items-center bg-white rounded-xl px-7 py-5 h-52">
                   <div>
                       <img src="assets/residential.png" alt="">
                   </div>
@@ -151,8 +144,8 @@
 
               <br>
   
-            <div class="size  text-center">
-              <img src="assets/Rectangle.png" alt="">
+            <div class="lg:ml-20 text-center">
+              <img class="h-full" src="assets/Rectangle.png" alt="">
             </div>
   
   
@@ -223,45 +216,49 @@
 
             <div class="lg:grid grid-cols-4 grid-rows-2 gap-5 ">
 
-              <div class="lg:flex gap-4 border rounded-lg p-4 items-center col-span-3 mb-5" >
-                <div>
-                  <img src="assets/img1.png" alt="">
+              <div class="lg:flex lg:justify-between gap-4 border rounded-lg p-4 items-center col-span-3 mb-5" >
+                <div class="lg:w-[50%] mb-5">
+                  <img class="w-full" src="assets/img1.png" alt="">
                 </div>
-                <br>
-                <div>
-                  <h1>Commercial</h1>
-                <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+              
+                <div class="lg:w-[50%]">
+                  <h1 class="lg:text-4xl">Commercial</h1>
+                <p class="lg:my-2">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                 <button 
                 class="bg-white w-30 h-8 rounded-3xl text-[#1C1C1C] font-extrabold ">View  Details <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full -rotate-45 "></i>
                 </button>
                 </div>
+
+
               </div>
 
               <div class="border p-4 mb-5">
-                <img  src="assets/img2.png" alt="">
+                <img class="w-full h-full"  src="assets/img2.png" alt="">
               </div>
 
 
               <div class="border p-3 rounded-lg mb-5 ">
-                <img src="assets/img3.png" alt="">
+                <img class="w-full h-full" src="assets/img3.png" alt="">
               </div>
 
-              <div class="lg:flex gap-4 border rounded-lg p-4 items-center col-span-2 mb-5" >
-                <div class="text-center" >
-                  <img class="mx-auto" src="assets/img4.png" alt="">
+              
+
+              <div class="lg:flex gap-4 border rounded-lg p-4  col-span-2 mb-5" >
+                <div>
+                  <img  class="w-full h-full" src="assets/img4.png" alt="">
                 </div>
                 <br>
-                <div>
-                  <h1>Commercial</h1>
-                <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                <div class="lg:flex flex-col justify-center lg:w-[60%]">
+                  <h1 class="lg:text-4xl">Commercial</h1>
+                <p class="lg:my-2">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                 <button 
-                class="bg-white w-30 h-8 rounded-3xl text-[#1C1C1C] font-extrabold ">View        Details <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full -rotate-45 "></i>
+                class="bg-white w-30 flex gap-3 rounded-3xl text-[#1C1C1C] font-extrabold ">View        Details <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-1 -rotate-45 "></i>
                 </button>
                 </div>
               </div>
 
-              <div class="border rounded-lg p-3 mb-5">
-                <img src="assets/img5.png" alt="">
+              <div class="border  rounded-lg p-3 mb-5">
+                <img class="w-full h-full" src="assets/img5.png" alt="">
               </div>
             </div>
 
@@ -318,7 +315,7 @@
           </section>
       </main>
     <!-- Footer section -->
-    <footer class="bg-black pb-80 pt-16  px-7  lg:px-52">
+    <footer class="bg-black pb-10 pt-16  px-7  lg:px-52">
         
           <div class="text-center">
             <h1 class="text-white text-xl font-bold">
